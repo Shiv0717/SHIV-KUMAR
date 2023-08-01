@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300&display=swap');
+body{
+    background-color: black;
+}
+html {
+    scroll-behavior: smooth;
+  }
+  nav,
+  .nav-links {
+    font-family: "Poppins", sans-serif;
+    display: flex;
+
+  }
+  nav {
+    justify-content: space-around;
+    align-items:center;
+    height: 18vh;
+  }
+  
+  .nav-links {
+    padding-right: 90px;
+    gap: 2rem;
+    list-style: none;
+    font-size: 1rem;
+    margin-right: 10px;
+    letter-spacing: 2px;
+
+  }
+  
+  a {
+    font-size: 12px;
+    color:white;
+    text-decoration: none;
+    text-decoration-color: white;
+  }
+  
+  a:hover {
+    color: grey;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    text-decoration-color: rgb(181, 181, 181);
+  }
+  
+  .logo {
+    padding: 80px;
+    width: 100%;
+    font-size: 13px;
+    color: white;
+    letter-spacing: 8px;
+    margin-left: 11px;
+  }
+  
+  .logo:hover {
+    cursor: pointer;
+  }
+  
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.main-con
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    font-weight: 200;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1.2em;
+    font-family: 'Oswald', sans-serif;
+    font-size: 34px;
+    color: white;
+    text-transform: none;
+    letter-spacing: 2px;
+    text-rendering: optimizeLegibility;
+}
+.iframes
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text1
+{
+    font-family: 'Poppins', sans-serif;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:  #878787;
+}
+.text2
+{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    color:  #878787;
+    margin-bottom: 20px;
+}
+.fot1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 8px;
+    margin-bottom: 80px;
+}
+.footer1{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 8px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+.fot:hover{
+    cursor: pointer;
+}
+.footer,p{
+    color: white;
+    font-size: 10px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+.main
+{
+    text-align: 50px;
+}
